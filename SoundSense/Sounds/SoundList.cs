@@ -9,7 +9,7 @@ public record SoundList(
 	[XmlAttribute] string? Channel,
 	[XmlAttribute("concurency")] int? Concurrency, // TODO implement
 	[XmlElement] IReadOnlyList<SoundListEntry> Entries,
-	[XmlAttribute] Loop Loop = 0,
+	[XmlAttribute] Loop Loop = Loop.Stop,
 	[XmlAttribute] int Timeout = 0, // TODO implement
 	[XmlAttribute] string AnsiFormat = "", // TODO implement
 	[XmlAttribute] bool HaltOnMatch = true, // TODO what does this do
