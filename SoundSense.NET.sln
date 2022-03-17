@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoundSense", "SoundSense\SoundSense.csproj", "{B1E23599-E4C5-4B39-8317-B40278C977D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoundSense.Tests", "SoundSense.Tests\SoundSense.Tests.csproj", "{265788ED-533B-4749-8E74-A4995E45D2DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoundSense.Console", "SoundSense.Console\SoundSense.Console.csproj", "{A504C61F-74A0-4194-8EE7-F6F3F20A13BD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B1E23599-E4C5-4B39-8317-B40278C977D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1E23599-E4C5-4B39-8317-B40278C977D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1E23599-E4C5-4B39-8317-B40278C977D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1E23599-E4C5-4B39-8317-B40278C977D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{265788ED-533B-4749-8E74-A4995E45D2DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{265788ED-533B-4749-8E74-A4995E45D2DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{265788ED-533B-4749-8E74-A4995E45D2DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{265788ED-533B-4749-8E74-A4995E45D2DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A504C61F-74A0-4194-8EE7-F6F3F20A13BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A504C61F-74A0-4194-8EE7-F6F3F20A13BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A504C61F-74A0-4194-8EE7-F6F3F20A13BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A504C61F-74A0-4194-8EE7-F6F3F20A13BD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
